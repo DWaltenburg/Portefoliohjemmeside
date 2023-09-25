@@ -10,5 +10,13 @@
     {
         "name": "Peter Smith",
         "description": "A lawyer"
+    },
+    {
+        "name": "Mary Smith",
+        "description": "A teacher"
+    },
+    {
+        "name": "David Jones",
+        "description": "A dentist"
     }
 ]
