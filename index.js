@@ -17,7 +17,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#search").click(function () {
+    $("#searchTerm").on("input", function () {
         if ($("#searchTerm").val() == "") {
             showCards(array);
         } else {
