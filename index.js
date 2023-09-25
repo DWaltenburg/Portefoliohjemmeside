@@ -1,16 +1,6 @@
 $(document).ready(function () {
-    // $.ajaxSetup({
-    //     headers: {
-    //         'Access-Control-Allow-Origin': '*'
-    //     }
-    // });
-    // $.getJSON("https://github.com/DWaltenburg/Portefoliohjemmeside/raw/main/data.json", {}, function (data) {
-    //     console.log(JSON.stringify(data));
-    // }).fail(function () {
-    //     console.log("An error has occurred.");
-    // });
     $.ajax({
-        url: "http://dwaltenburg.github.io/Portefoliohjemmeside/data.json",
+        url: "data.json",
         crossDomain: true,
         headers: {
             "Access-Control-Allow-Origin": "*"
@@ -26,7 +16,6 @@ $(document).ready(function () {
 
     $("#search").click(function () {
         $("#my-list").append("<li>" + $("#searchTerm").val() + "</li>");
-        // alert( "Handler for .click() called." );
     });
     array = ["1", "2", "3", "4", "5", "6"]
     array.forEach(element => {
