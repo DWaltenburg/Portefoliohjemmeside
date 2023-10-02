@@ -30,7 +30,7 @@ $(document).ready(function () {
 function showCards(array) {
     $(".row").empty();
     array.forEach(element => {
-        $(".row").append('<div class="card col-md-3"\>' +
+        $(".row").append('<div class="card col-md-5 my-3"\>' +
             '<img src = "Portrait_Placeholder.png" class= "card-img-top" alt = "Portrait">' +
             '<div class="card-body">' +
             '<h5 class="card-title">' + element.name + '</h5>' +
